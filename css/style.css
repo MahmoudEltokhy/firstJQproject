@@ -1,0 +1,211 @@
+*{
+
+    scroll-behavior: smooth;
+}
+
+.main{
+
+    background-image: url("../images/events-heavenly-header.jpg"), linear-gradient(rgba(254, 68, 48, 0.5),rgba(254, 68, 48, 0.5));
+    background-size: cover;
+    background-blend-mode: overlay;
+    width: 100%;
+    height: 92vh;
+
+}
+
+.main .text h1{
+
+    font-size: 4rem;
+    font-weight: 400;
+}
+
+.main .text p{
+    font-size: 1.2rem;
+}
+
+
+#details{
+
+    padding: 50px;
+
+
+}
+
+#details .info { 
+
+   
+    width: 60%;
+    margin: auto;
+}
+
+#details .info .info-details {
+
+    text-align: center;
+    padding: 15px 15px -10px 15px;
+}
+
+#details .info .info-details .singer{
+
+    padding: 15px ;
+    background-color:rgba(254, 68, 48) ;
+    cursor: pointer;
+}
+
+#details .info .info-details .singer-info{
+
+    background-color: #c5c5c5;
+    margin-bottom: 0px;
+    padding: 20px;
+    display: none;
+}
+
+
+#duration{
+
+
+    background-image: url("../images/join.jpeg"), linear-gradient(rgba(254, 68, 48, 0.5),rgba(254, 68, 48, 0.5));
+    background-size: cover;
+    background-blend-mode: overlay;
+    width: 100%;
+    height: 20rem;
+    background-attachment: fixed;
+   
+}
+
+
+#duration .container{
+
+    height: 100%;
+}
+
+#duration .info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 200px;
+    border: 1px solid #fff;
+    color: #fff;
+    background-color:rgba(254, 68, 48) ;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -o-transition: all 0.5s;
+}
+
+#duration .info:hover{
+
+    background-color: transparent;
+}
+
+#contact{
+    padding-block: 80px;
+}
+
+
+
+#contact .info-container{
+
+    margin-block: 40px;
+    display: flex;
+    justify-content: center;
+
+}
+
+
+
+#contact .info-container i{
+
+
+    margin-right: 15px;
+}
+
+
+#contact .first{
+
+    width: 48%;
+}
+
+
+#contact .second{
+
+    width: 48%;
+}
+
+
+.icons{
+
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+}
+
+.icon{
+
+    width: 50px;
+    height: 50px;
+    border: 1px solid #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.nav{
+
+    height: 100%;
+    width: 20%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9999 ;
+}
+
+.sidenav {
+   
+    background-color: #111; 
+    padding-top: 60px;
+    transition: 0.5s; 
+    width: 70%;
+    position: relative;
+    display: none;
+  
+  }
+  
+  .sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  .sidenav a:hover {
+    color: #f1f1f1;
+  }
+  
+  .sidenav i {
+    position: absolute;
+    top: 5px;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+    
+  }
+  
+  .bars{
+
+    height: 100%;
+    padding-top: 60px;
+    transition: 0.5s; 
+    width: 20%;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    
+
+
+  }
